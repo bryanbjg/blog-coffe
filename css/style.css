@@ -110,6 +110,10 @@ img{
     color: var(--blaco);
 }
 
+.barra{
+    padding-top: 4rem;
+}
+
 .entrada{
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
@@ -171,6 +175,15 @@ img{
     font-size: 2rem;
 }
 
+.footer{
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+
+
+/*Sobre nosotros*/
 
 
 
@@ -212,4 +225,14 @@ img{
     .boton{
         display: inline-block;
     }
+}
+
+@media(min-width: 768px){
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+
+    
 }
