@@ -4,7 +4,7 @@
 
     --primario: #784D3C;
     --gris: #e1e1e1;
-    --blaco: #ffffff;
+    --blanco: #ffffff;
     --negro: #000000;
 }
 html{
@@ -86,13 +86,13 @@ img{
 
 .header_texto{
     text-align: center;
-    color: var(--blaco);
+    color: var(--blanco);
     margin-top: 5rem;
 
 }
 
 .logo{
-    color: var(--blaco);
+    color: var(--blanco);
 }
 
 .logo_nombre{
@@ -107,7 +107,7 @@ img{
     display: block;
     text-align: center;
     font-size: 1.8rem;
-    color: var(--blaco);
+    color: var(--blanco);
 }
 
 .barra{
@@ -127,13 +127,18 @@ img{
 .boton{
     display: block;
     font-family: var(--fuenteHeading);
-    color: var(--blaco);
+    color: var(--blanco);
     text-align: center;
     padding: 1rem 3rem;
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
+    border: none;
+}
+
+.boton:hover{
+    cursor: pointer;
 }
 
 
@@ -199,6 +204,41 @@ img{
 }
 
 
+/*Formulario contacto*/
+
+.contacto-bg{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.campo__label{
+    flex: 0 0 9rem;
+    text-align: right;
+}
+
+.campo__field{
+    flex: 1;
+    border: 1px solid var(--negro);
+}
+
+.campo__field--textarea{
+    height: 20rem;
+}
 
 
 
